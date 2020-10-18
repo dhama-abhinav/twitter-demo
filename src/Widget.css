@@ -1,0 +1,46 @@
+.widget{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.widget__search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 19px;
+    background-color:var(--twitter-background);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.widget__search>input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    width: 100%;
+}
+
+
+.widget::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .widget {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+
+  .widget__container {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+  }
+  
+  .widget__container > h2 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  

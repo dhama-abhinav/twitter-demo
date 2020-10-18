@@ -1,0 +1,15 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid lightgray;
+    flex: 0.25;
+    height: 100vh;
+}
+/* .twitter__icon{
+    color: blue;
+    padding: 15px;
+} */
+.sidebar> .MuiSvgIcon-root{
+    padding: 20px;
+    color: blue;
+}
